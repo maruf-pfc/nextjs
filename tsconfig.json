@@ -19,14 +19,14 @@
       }
     ],
     // baseUrl
-    "paths": {
-      "@/*": ["./src/*"]
-    },
-    // paths
     // "paths": {
-    //   "@/styles/*": ["styles/*"],
-    //   "@/components/*": ["components/*"]
-    // }
+    //   "@/*": ["./src/*"]
+    // },
+    "baseUrl": "src/",
+    "paths": {
+      "@/styles/*": ["styles/*"],
+      "@/api/*": ["api/*"],
+    }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
   "exclude": ["node_modules"],
